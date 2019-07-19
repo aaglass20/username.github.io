@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
+    <title>Training</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
 	
@@ -12,15 +12,17 @@
   <body>
   	<!-- body code goes here -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#">Glassmation</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#">Glassmation</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
 <li class="nav-item"> <a class="nav-link" href="testplayground.html">Test Playground</a> </li>
-		  <li class="nav-item"> <a class="nav-link" href="training.html">Training</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="training.html">Training</a>  </li>
           <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About Me </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="docs/Aaron_Glass_Resume.pdf">Resume</a> <a class="dropdown-item" href="https://www.linkedin.com/in/aaron-glass-8b74a48/">LinkedIn Profile</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="docs/Aaron_Glass_Resume.pdf"  target="_blank" >Resume</a> 
+			  <a class="dropdown-item" href="https://www.linkedin.com/in/aaron-glass-8b74a48/" target="_blank">LinkedIn Profile</a>
+				<a class="dropdown-item" href="https://twitter.com/Double_A_QA"  target="_blank">Twitter</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Nothing to Look at Yet</a> </div>
           </li>
@@ -31,15 +33,57 @@
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-    </nav>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+  </nav>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-3.2.1.min.js"></script>
 
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.0.0.js"></script>
 	  <br>
-	    	<img src="images/training.png" class="rounded img-fluid" alt="Placeholder image">
+<div class="container">
+    <img src="images/training.png" class="rounded img-fluid" alt="Placeholder image">
+    <br><br>
+</div>
+  <div id="accordion1" role="tablist">
+	   <div class="card">
+	     <div class="card-header" role="tab" id="headingOne1">
+	       <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="false" aria-controls="collapseOne1"> Who Played? </a> </h5>
+         </div>
+	     <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+	       <div class="card-body">Cleveland</div>
+			 <div class="card-body">Detroit</div>
+         </div>
+    </div>
+	   <div class="card">
+	     <div class="card-header" role="tab" id="headingTwo1">
+	       <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> Starting Nine </a> </h5>
+         </div>
+	     <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+	       <div class="card-body">Lindor</div>
+			 	       <div class="card-body">Lindor</div>
+			 	       <div class="card-body">Mercado</div>
+			 	       <div class="card-body">Santana</div>
+			 	       <div class="card-body">Luplow</div>
+			 	       <div class="card-body">Ramirez</div>
+			 	       <div class="card-body">Perez</div>
+			 	       <div class="card-body">Kipnis</div>
+			 	       <div class="card-body">Bauers</div>
+			 		   <div class="card-body">Naquin</div>
+         </div>
+    </div>
+	   <div class="card">
+	     <div class="card-header" role="tab" id="headingThree1">
+	       <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> Who Pitched </a> </h5>
+         </div>
+	     <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+			 			 		   <div class="card-body">Bauer</div>
+			 			 		   <div class="card-body">Perez</div>
+			 			 		   <div class="card-body">Cimber</div>
+			 			 		   <div class="card-body">Hand</div>
+			 
+         </div>
+    </div>
+  </div>
   </body>
 </html>
