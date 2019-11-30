@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Simple Theme</title>
 <link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -17,27 +18,27 @@
 <div class="container">
   <header>
     <div class="primary_header">
-      <h1 class="title"> Glassmation&nbsp;</h1>
+      <h1 class="title">Glassmation</h1>
     </div>
     <nav class="secondary_header" id="menu">
-      <ul>
-        <li class="about" data-test="about">ABOUT</li>
-        <li>WORK</li>
-        <li>PORTFOLIO</li>
-        <li>SERVICES</li>
-        <li>CLIENTS</li>
-        <li>CONTACT</li>
+      <ul class="col-lg-12">
+ 		<li class="list" data-test="automation"><a href="index.html">HOME</a></li>
+		<li class="list" data-test="automation"><a href="automation.html">AUTOMATION</a></li>
+        <li class="list" data-test="automation"><a href="testing.html">TESTING</a></li>
+		<li class="list" data-test="automation"><a href="data.html">DATA</a></li>
+		<li class="list" data-test="automation"><a href="training.html">TRAINING</a></li>
+		<li class="list" data-test="automation"><a href="random.html">RANDOM</a></li>
       </ul>
     </nav>
   </header>
   <section>
     <h2 class="noDisplay">Main Content</h2>
     <article class="left_article">
-      <h3>content heading</h3>
+      <h3>AARON GLASS&nbsp;</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </article>
-    <aside class="right_article"><img src="images/boat.jpg" alt="" width="400" height="200" class="placeholder"/> </aside>
+    <aside class="right_article"><img src="images/aaronProfile.jpg" alt="" width="400" height="200" class="placeholder"/> </aside>
   </section>
   <div class="row">
     <div class="columns">
@@ -79,5 +80,8 @@
     <div class="copyright">&copy;2019 - <strong>SIMPLE Theme</strong></div>
   </footer>
 </div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.3.1.js"></script>
 </body>
 </html>
