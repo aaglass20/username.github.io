@@ -23,7 +23,7 @@
 
     </nav>
 	  
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html">Planning</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html">Training</a>
 	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 	      <ul class="navbar-nav mr-auto">        
@@ -38,8 +38,8 @@
 	          <div class="dropdown-menu" aria-labelledby="planning"> 
 				  <a class="dropdown-item" href="planning.html">Test Planning</a>
 				  <a class="dropdown-item" href="train.html">Training & Mentoring</a>
-			  </div>
-            </li>		
+				</div>
+            </li>			
 		    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="Other" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other</a>
 	          <div class="dropdown-menu" aria-labelledby="planning"> 
 				  <a class="dropdown-item disabled" href="#">Communication</a>
@@ -53,7 +53,7 @@
 				  <a class="dropdown-item disabled" href="#">Test Approach</a>
 				  <a class="dropdown-item disabled" href="#">Test Design</a>
 				  <a class="dropdown-item disabled" href="#">Time MGMT</a>
-			  <a class="dropdown-item disabled" href="#">Logic & Rational</a></div>
+				  <a class="dropdown-item disabled" href="#">Logic & Rational</a></div>
             </li>
 			  
 			 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="aboutMe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About Me </a>
@@ -74,16 +74,34 @@
 <aside class="right_article"> </aside>
   </section>
 
-  <div class="jumbotron">
-    <h1 class="display-4">Test Rail</h1>
-    <p class="lead">Here are a few images from my experience with TestRail. &nbsp;<br><br>
-    <img src="images/testRail1.png" class="img-fluid" alt="Placeholder image"> 
-	  <img src="images/testrail2.png" class="img-fluid" alt="Placeholder image"> </p>
-    <hr class="my-4">
-    <p>Select button for personal notes from my learning about TestRail.</p>
-    <p class="lead"> <a class="btn btn-primary btn-lg" href="testRailNotes.html" role="button">Notes</a> </p>
+  <div id="accordion1" role="tablist">
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingOne1">
+	      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="false
+			  " aria-controls="collapseOne1"> TestCafe </a> </h5>
+        </div>
+	    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+	      <div class="card-body"><a href="https://github.com/aaglass20/glassmation/blob/master/PDF/Introduction%20to%20TestCafe.pdf">Introduction to TestCafe&nbsp;</a></div>
+        </div>
+    </div>
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingTwo1">
+	      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> Test MGMT </a> </h5>
+        </div>
+	    <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+	      <div class="card-body">TestRail</div>
+        </div>
+    </div>
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingThree1">
+	      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> Tools&nbsp; </a> </h5>
+        </div>
+	    <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+	      <div class="card-body">Content for Accordion Panel 3</div>
+        </div>
+    </div>
   </div>
-<footer class="secondary_header footer">
+<footer class="secondary_header footer">&nbsp;
 </footer>
 </div>
 <script src="js/jquery-3.3.1.min.js"></script>
