@@ -55,7 +55,7 @@
 				  <a class="dropdown-item disabled" href="#">Time MGMT</a>
 			  <a class="dropdown-item disabled" href="#">Logic & Rational</a></div>
             </li>
-			  
+		
 			 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="aboutMe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About Me </a>
             	<div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="docs/Aaron_Glass_Resume.pdf"  target="_blank" >Resume</a> 
 				<a class="dropdown-item" href="https://www.linkedin.com/in/aaron-glass-8b74a48/" target="_blank">LinkedIn Profile</a>
@@ -76,28 +76,57 @@
 
   <div class="jumbotron">
     <h1 class="display-4">Chrome DevTools</h1>
-    <p class="lead"><strong>Info URL:</strong> https://developers.google.com/web/tools/chrome-devtools</p>
+    <p class="lead"><strong>Info URL: <a href="https://developers.google.com/web/tools/chrome-devtools">Link to Chrome DevTools</a>&nbsp;&nbsp;</strong> </p>
     <p class="lead"><strong>What I use it for:</strong>&nbsp;</p>
     <ul>
       <li>Inspecting Elements</li>
       <li>Locating Elments with XPath and CS</li>
-		<li>tbd</li>
-		<li>tbd</li>
-		<li>tbd</li>
+		<li>Network&nbsp;</li>
+		<ul>
+			<li>Review endpoint status, type, size, and time</li>
+			<li>Headers - general information</li>
+		  	<li>Preview - review endpoint data</li>
+		  	<li>Response - review response</li>
+			<li>Timing - review load time&nbsp;</li>
+        </ul>
+	  <li>Console</li>
+		<ul>
+			<li>Primarly looking for errors</li>
+        </ul>
+	  <li>Application</li>
+		<li>A/B session storage</li>
+	  <li>Reviewing local storage</li>
     </ul>
 <hr class="my-4">
-    <p>Examples: Find Element with XPath</p>
-    <ul>
-      <li>CMD + F</li>
-      <li>Type in valid Xpath</li>
-      <li>//h1[@class='devsite-page-title']&nbsp;</li>
-    </ul>
-<img src="images/chromeDevToolsXpath.png" class="img-fluid" alt="Placeholder image">
 
+    <div class="row">
+      <div class="col-lg-6">
+        <p><strong>Example: Find Element with XPath</strong></p>
+
+      <img src="images/chromeDevToolsXpath.png" class="img-fluid" alt="Placeholder image"> </div>
+      <div class="col-lg-6">
+        <p><strong>Example: Find Element with CSS</strong></p>
+
+      <img src="images/chromeDevToolsCSS.jpg" class="img-fluid" alt="Placeholder image"> </div>
+    </div>
+	  
+	<p></p>  
+	  
+    <div class="row">
+      <div class="col-lg-6">
+        <p><strong>Example: Preview Response</strong></p>
+      <img src="images/chromeDevToolsPreview.jpg" class="img-fluid" alt="Placeholder image"> </div>
+      <div class="col-lg-6">
+        <p><strong>Example: Review Conole</strong></p>
+
+        <img src="images/chromeDevToolsConsole.jpg" class="img-fluid" alt="Placeholder image"> </div>
+    </div>
+	  
+	  
   </div>
+</div>
 <footer class="secondary_header footer">
 </footer>
-</div>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.3.1.js"></script>
