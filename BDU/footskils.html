@@ -6,7 +6,6 @@
     <title>BDU Soccer</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-
         /* Your existing CSS styles */
         /* Add new styles for the waffle menu */
         .waffle-menu {
@@ -53,6 +52,10 @@
         }
 
         .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns */
+            grid-auto-rows: auto; /* Automatically sized rows */
+            grid-gap: 20px; /* Gap between grid items */
             width: 80%;
             margin: 0 auto;
             overflow: hidden;
@@ -67,14 +70,12 @@
             text-align: center;
         }
 
-
         header img {
             max-height: 60px; /* Adjust the size of your logo */
         }
 
         .video-container {
             background: #fff;
-            margin: 20px 0;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -87,13 +88,14 @@
 
         p {
             margin-top: 5px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 <header>
     <img src="images/bdu.png" alt="Company Logo">
-    <h1>BDU U10 Practice</h1>
+    <h1>BDU Foot Skills</h1>
 </header>
 
 <!-- Add the waffle menu toggle button -->
@@ -108,26 +110,177 @@
     <a href="index.html">Home</a>
     <a href="practices.html">Practice</a>
     <a href="warmup.html">Warm Up</a>
-    <a href="offsides.html">Offsides</a>
-    <a href="soccerSkillsSession1.html">Foot Skills</a>
+    <a href="offsides.html">Rules Explained</a>
+    <a href="drills.html">Drills</a>
+    <a href="footskils.html">Foot Skills</a>
     <!-- Add more links as needed -->
 </div>
+
 <div class="container">
-    <div>
-        <ul>
-            <li><a href="practice5_2_2024.html">5-2-2024 Practice</li>
-            <ul>
-                <li>Through Ball Drill</li>
-                <li>Passing Ladder</li>
-                <li>Trap Control</li>
-                <li>Whole Team - Work Sides, Play Through</li>
-            </ul>
-        </ul>
-
-
+    <div class="video-container">
+        <video controls>
+            <source src="vid/ballsteps.mp4" type="video/mp4">
+        </video>
+        <p>Ball Steps</p>
     </div>
-</div>
 
+    <div class="video-container">
+        <video controls>
+            <source src="vid/quickfeet.mp4" type="video/mp4">
+        </video>
+        <p>Quick Feet</p>
+    </div>
+
+    <!-- Add more video containers here for the second row -->
+    <div class="video-container">
+        <video controls>
+            <source src="vid/dragbackinsideout.mp4" type="video/mp4">
+        </video>
+        <p>Drag Backin Inside Out</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/insideout.mp4" type="video/mp4">
+        </video>
+        <p>Inside Out</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/ballsteps.mp4" type="video/mp4">
+        </video>
+        <p>Ball Steps</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/maestro.mp4" type="video/mp4">
+        </video>
+        <p>Maestro</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/pullpush.mp4" type="video/mp4">
+        </video>
+        <p>Pull Push</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/pulltrap.mp4" type="video/mp4">
+        </video>
+        <p>Pull Trap</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/quickfeetrollovers.mp4" type="video/mp4">
+        </video>
+        <p>Quick Feet Rollovers</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/quickfeetsnaprollovers.mp4" type="video/mp4">
+        </video>
+        <p>Quick Feet Snap Rollovers</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/scissors.mp4" type="video/mp4">
+        </video>
+        <p>Scissors</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/solerolls.mp4" type="video/mp4">
+        </video>
+        <p>Sole Rolls</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/stepovers.mp4" type="video/mp4">
+        </video>
+        <p>Step overs</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/stepundies.mp4" type="video/mp4">
+        </video>
+        <p>Step unders</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/thevee.mp4" type="video/mp4">
+        </video>
+        <p>The Vee</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/theveeII.mp4" type="video/mp4">
+        </video>
+        <p>The Vee II</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/threetapspins.mp4" type="video/mp4">
+        </video>
+        <p>Three Tap Spins</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/triangles.mp4" type="video/mp4">
+        </video>
+        <p>Triangles</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/walltraininsidefoot.mp4" type="video/mp4">
+        </video>
+        <p>Wall - Inside Right and Left</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/walltraininsidealternating.mp4" type="video/mp4">
+        </video>
+        <p>Wall - Inside Alternating</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/walltrainlaces.mp4" type="video/mp4">
+        </video>
+        <p>Wall - Laces</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/walltrainrightfootleftfoot.mp4" type="video/mp4">
+        </video>
+        <p>Wall - Both Feet</p>
+    </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="vid/walltraintriangle.mp4" type="video/mp4">
+        </video>
+        <p>Wall - Traingle</p>
+    </div>
+
+
+</div>
 
 <!-- Your existing scripts -->
 <script>
@@ -141,7 +294,6 @@
         }
     }
 </script>
-
 
 </body>
 </html>
