@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDU Soccer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        /* Your existing CSS styles */
+        /* Add new styles for the waffle menu */
+        .waffle-menu {
+            display: none; /* Initially hide the waffle menu */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            background-color: #333;
+            padding: 20px;
+            z-index: 1000;
+        }
+
+        .waffle-menu a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .waffle-menu-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1001;
+            cursor: pointer;
+        }
+
+        .waffle-menu-toggle span {
+            display: block;
+            width: 30px;
+            height: 5px;
+            background-color: #fff;
+            margin-bottom: 5px;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #003366;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            text-align: center;
+        }
+
+
+        header img {
+            max-height: 60px; /* Adjust the size of your logo */
+        }
+
+        .video-container {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="../images/bdu.png" alt="Company Logo">
+    <h1>BDU U10 Practice</h1>
+</header>
+
+<!-- Add the waffle menu toggle button -->
+<div class="waffle-menu-toggle" onclick="toggleWaffleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<!-- The waffle menu -->
+<div class="waffle-menu" id="waffleMenu">
+    <p><br></p>
+    <a href="index.html">Home</a>
+    <a href="practices.html">Practice</a>
+    <a href="warmup.html">Warm Up</a>
+    <a href="offsides.html">Rules Explained</a>
+    <a href="drills.html">Drills</a>
+    <a href="offense.html">Offense</a>
+    <a href="defense.html">Defense</a>
+    <a href="footskils.html">Foot Skills</a>
+    <a href="fitness.html">Fitness</a>
+    <a href="camp.html">Camp</a>
+</div>
+<div class="container">
+
+    <div class="video-container">
+        <video controls>
+            <source src="../practice/3%20Group,%20Ladder,%20Side%20to%20Side,%20Dribble.mp4" type="video/mp4">
+        </video>
+        <p>3 Groups - Ladder, Side to Side, Dribble</p>
+        <ul>
+            <li>Side to Side (1 or 2 touch) back and forth to coach - Work both feet</li>
+            <li>Ladder (1 or 2 touch) back and forth to coach - Work both feet</li>
+            <li>Dribble with both feet, speed, 4 rollovers with gate, Long touch with Sprint Form</li>
+        </ul>
+        <b>Why is this important?</b>
+        <ul>
+            <li>General skills</li>
+            <br>
+        </ul>
+        <hr>
+
+        <hr>
+
+        <hr>
+
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/Bad%20Pass,%20Transition%20to%20D,%20Good%20Pass%20become%20O.mp4"
+                        type="video/mp4">
+            </video>
+            <p><b>Good Pass, Play O, Bad Pass Play D - Transitions</b></p>
+            <ul>
+                <li>Goal throws ball to first player</li>
+                <li>Player attempts to pass through gate</li>
+                <li>If pass goes through gate, take off an become an option for leading pass</li>
+                <li>Try to pass before next gate to teamate that should be moving after the pass</li>
+                <li>If Player misses first gate, Second Player becomes offence</li>
+                <li>First player immediatly had to transition from Offense to Defense</li>
+                <li>P2 is tring to score on keeper</li>
+                <li>P1 is trying to defend, not waiting on it</li>
+            </ul>
+            <b>Why is this important? </b>
+            <ul>
+                <li>P1 is transition to D to O if they make a good pass</li>
+                <li>P1 is transitioning quickly back to D if they make a bad pass</li>
+                <li>Promotes movement on O side if successful</li>
+                <li>There is a consequence for a bad pass</li>
+                <br>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/passshootdefend.mp4" type="video/mp4">
+            </video>
+            <p><b>Pass, Shoot, Defend - Whole Team</b></p>
+            <ul>
+                <li>Short pass forward, Communicate to recipient</li>
+                <li>Call for Drop</li>
+                <li>Rush to dropped ball</li>
+                <li>Quick pass over</li>
+                <li>Top player shoots</li>
+                <li>Defender trys to block</li>
+                <li>After shot, shooter becomes defender</li>
+                <li>Initial passer becomes shooter</li>
+                <li>Defender jumps back in line</li>
+            </ul>
+            <b>Why is this important? </b>
+            <ul>
+                <li>Urgency as passer, shooter, defender</li>
+                <li>works on short dump or drop</li>
+                <li>Communications and movement</li>
+                <br>
+            </ul>
+        </div>
+
+        <hr>
+
+
+    </div>
+
+
+    <!-- Your existing scripts -->
+    <script>
+        // JavaScript function to toggle the waffle menu
+        function toggleWaffleMenu() {
+            var waffleMenu = document.getElementById("waffleMenu");
+            if (waffleMenu.style.display === "block") {
+                waffleMenu.style.display = "none";
+            } else {
+                waffleMenu.style.display = "block";
+            }
+        }
+    </script>
+
+
+</body>
+</html>
