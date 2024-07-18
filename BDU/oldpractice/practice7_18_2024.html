@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDU Soccer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        /* Your existing CSS styles */
+        /* Add new styles for the waffle menu */
+        .waffle-menu {
+            display: none; /* Initially hide the waffle menu */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            background-color: #333;
+            padding: 20px;
+            z-index: 1000;
+        }
+
+        .waffle-menu a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .waffle-menu-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1001;
+            cursor: pointer;
+        }
+
+        .waffle-menu-toggle span {
+            display: block;
+            width: 30px;
+            height: 5px;
+            background-color: #fff;
+            margin-bottom: 5px;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #003366;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            text-align: center;
+        }
+
+
+        header img {
+            max-height: 60px; /* Adjust the size of your logo */
+        }
+
+        .video-container {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-top: 5px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<header>
+    <img src="../images/bdu.png" alt="Company Logo">
+    <h1>BDU U10 Practice</h1>
+</header>
+
+<!-- Add the waffle menu toggle button -->
+<div class="waffle-menu-toggle" onclick="toggleWaffleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<!-- The waffle menu -->
+<div class="waffle-menu" id="waffleMenu">
+    <p><br></p>
+    <a href="../index.html">Home</a>
+    <a href="../practices.html">Practice</a>
+    <a href="../warmup.html">Warm Up</a>
+    <a href="../offsides.html">Rules Explained</a>
+    <a href="../drills.html">Drills</a>
+    <a href="../offense.html">Offense</a>
+    <a href="../defense.html">Defense</a>
+    <a href="../footskils.html">Foot Skills</a>
+    <a href="../fitness.html">Fitness</a>
+    <a href="../camp.html">Camp</a>
+</div>
+<div class="container">
+
+    <div class="container">
+        <b>Practice Plan - Agenda</b>
+        <br><br>
+        <b>15 min: warmup (taking this slow)</b>
+        <br><br>
+        <b>Stretch </b>
+
+        (working on being organized, together)
+        <ul>
+            <li>1, 2, 3, Touch Toe</li>
+            <li>Lunges</li>
+            <li>Hug knee to Chest</li>
+            <li>Cradle Leg and Ankle</li>
+            <li>Criss cross quad</li>
+            <li>Skips</li>
+            <li>Stand in place X 10 - Count</li>
+            <ul>
+                <li>Scissors * 10</li>
+                <li>Front to Back Hop * 10</li>
+                <li>Side to Side * 10</li>
+                <li>Criss Cross * 10</li>
+                <li>Hops * 10</li>
+            </ul>
+
+        </ul>
+        <li><b>Run</b></li>
+        <ul>
+            <li>Sprint * 2</li>
+            <li>Flip Running * 4</li>
+        </ul>
+        <br>
+        <li><b>Flip run breakdown</b></li>
+        <ul>
+            <li>4 cones, dribble drill back and forth - 2 min each</li>
+            <ul>
+                <li>Dribble Right Foot inside and outside</li>
+                <li>Dribble Left Foot inside and outside</li>
+                <li>Dribble both feet</li>
+                <li>Sole Roll Right, dribble dribble, Sole role left</li>
+            </ul>
+        </ul>
+
+        <li><b>Quick Turn Drill</b></li>
+        <ul>
+            <li>Everyone gets a ball</li>
+            <li>Dribble Outside Right foot only Until you here Turn</li>
+            <li>Turn with outside of foot</li>
+            <li>Switch Feet</li>
+        </ul>
+
+        <div class="video-container">
+            <video controls>
+                <source src="../vid/turn_dribble.mp4" type="video/mp4">
+            </video>
+            <p>Quick Turns</p>
+        </div>
+
+        <li><b>Do Flip Running</b></li>
+        <ul>
+            <li>Slow dribble, focus is work on dribbling skill, what do you want to master</li>
+            <li>Yell Flip or switch to get defender to rotate</li>
+            <li>Defender stay close
+            <li>Dribble Right Foot inside and outside</li>
+            <li>Dribble Left Foot inside and outside</li>
+            <li>Dribble both feet</li>
+            <li>Sole Roll Right, dribble dribble, Sole role left</li>
+            </li>
+        </ul>
+
+        <ul>
+            <br>
+            <li><b>New 50 touches Breakdown</b></li>
+            <br>
+            <B>Tap relay</B>
+            <ul>
+                <li>3 balls acting as cones</li>
+                <li>To tap first one * 5, count</li>
+                <li>Sprint</li>
+                <li>To tap Second one * 5, count</li>
+                <li>Sprint</li>
+                <li>To tap Third one * 5, count</li>
+                <li>Sprint Back</li>
+                <li>Next</li>
+            </ul>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="../practice/toeTapRace.mp4"
+                            type="video/mp4">
+                </video>
+                <p><b>Tap Relay</b></p>
+            </div>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="../practice/cleanupRelay.mp4"
+                            type="video/mp4">
+                </video>
+                <p><b>Cleanup Relay</b></p>
+            </div>
+
+
+            <b>5 yards two touch with partner</b>
+            <ul>
+                <li>Work on proper passs and receive, 2 touch</li>
+                <li><a href="../touch.html" target="_self">Talk and show 3 touch variations</a></li>
+                <li>Communicate - work on saying each others names on your pass</li>
+                <li>Make a mistake, take a breathe, bring it back to where you should be</li>
+                <li>Coach observes and gives feedback</li>
+
+            </ul>
+            <br>
+            <B>Turns</B>
+            <li><a href="../turns.html" target="_self">Examples in 3 Turns to Master</a></li>
+            <ul>
+                <li>Kill & Push</li>
+                <li>Open Up</li>
+                <li>No Touch</li>
+                <li>Outside Foot Turn</li>
+                <ul>
+                    <li>Everyone has a ball</li>
+                    <li>Try it, just one</li>
+                </ul>
+            </ul>
+
+            <br>
+            <b>Now do 50 Touches</b>
+            <div class="video-container">
+                <video controls>
+                    <source src="../practice/new%2050%20touches.mp4" type="video/mp4">
+                </video>
+                <p><b>New 50 Touches Warmup</b></p>
+                <ul>
+                    <li>Long pass</li>
+                    <li>Short pass</li>
+                    <li>Turn</li>
+                    <li>Talk</li>
+                </ul>
+            </div>
+
+
+        </ul>
+
+        <br>
+
+        Either do Next Drill or Scrimage? Lets see how we are doing. Would love to see how 9 v 9 looks, no goalie.
+
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/circle_relay.mp4" type="video/mp4">
+            </video>
+            <p><b>Circle Relay</b></p>
+            <ul>
+                <li>Two teams</li>
+                <li>Start at middle</li>
+                <li>Run one way, touch end</li>
+                <li>Sprint to the other end</li>
+                <li>Dribble ball to other circle and stop</li>
+                <li>Next group goes once ball rest</li>
+            </ul>
+            <b>Why is this important? </b>
+            <ul>
+                <li>Fitness</li>
+                <li>Control</li>
+                <li>Relay</li>
+                <li>Head up dribbling</li>
+                <br>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <!-- Your existing scripts -->
+    <script>
+        // JavaScript function to toggle the waffle menu
+        function toggleWaffleMenu() {
+            var waffleMenu = document.getElementById("waffleMenu");
+            if (waffleMenu.style.display === "block") {
+                waffleMenu.style.display = "none";
+            } else {
+                waffleMenu.style.display = "block";
+            }
+        }
+    </script>
+
+
+</body>
+
+<footer class="footer">
+    <a href="../turns.html" target="_self">Turns</a> |
+    <a href="../tryout.html" target="_self">Tryout</a> |
+    <a href="../touch.html" target="_self">Touch</a> |
+</footer>
+
+</html>
