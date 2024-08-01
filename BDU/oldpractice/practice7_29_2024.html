@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDU Soccer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        /* Your existing CSS styles */
+        /* Add new styles for the waffle menu */
+        .waffle-menu {
+            display: none; /* Initially hide the waffle menu */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            background-color: #333;
+            padding: 20px;
+            z-index: 1000;
+        }
+
+        .waffle-menu a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .waffle-menu-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1001;
+            cursor: pointer;
+        }
+
+        .waffle-menu-toggle span {
+            display: block;
+            width: 30px;
+            height: 5px;
+            background-color: #fff;
+            margin-bottom: 5px;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #003366;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            text-align: center;
+        }
+
+
+        header img {
+            max-height: 60px; /* Adjust the size of your logo */
+        }
+
+        .video-container {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-top: 5px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<header>
+    <img src="../images/bdu.png" alt="Company Logo">
+    <h1>BDU U10 Practice</h1>
+</header>
+
+<!-- Add the waffle menu toggle button -->
+<div class="waffle-menu-toggle" onclick="toggleWaffleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<!-- The waffle menu -->
+<div class="waffle-menu" id="waffleMenu">
+    <p><br></p>
+    <a href="../index.html">Home</a>
+    <a href="../practices.html">Practice</a>
+    <a href="../warmup.html">Warm Up</a>
+    <a href="../offsides.html">Rules Explained</a>
+    <a href="../drills.html">Drills</a>
+    <a href="../offense.html">Offense</a>
+    <a href="../defense.html">Defense</a>
+    <a href="../footskils.html">Foot Skills</a>
+    <a href="../fitness.html">Fitness</a>
+    <a href="../camp.html">Camp</a>
+</div>
+<div class="container">
+
+    <b>Warmup - 15-30 min warmup and instruction</b>
+
+
+    <div class="container">
+        <ul>
+            <li>1, 2, 3, Touch Toe</li>
+            1, 2, 3, Devils
+            <li>Lunges</li>
+            D,E,V,I,L,S Devils Devils Devils
+            <li>Hug knee to Chest</li>
+            Blue, Gold, Blue, Gold
+            <li>Cradle Leg and Ankle</li>
+            ?????
+            <li>Criss cross quad</li>
+            In, dy, In, dy
+            <li>Skips</li>
+            <li>Stand in place X 10 - Count</li>
+            <ul>
+                <li>Scissors * 10</li>
+                <li>Front to Back Hop * 10</li>
+                <li>Side to Side * 10</li>
+                <li>Criss Cross * 10</li>
+                <li>Hops * 10</li>
+            </ul>
+
+        </ul>
+        <b>Run</b>
+        <ul>
+            <li>Sprint * 2</li>
+            <li>Show simple Feint before flip run</li>
+            <div class="video-container">
+                <video controls>
+                    <source src="../vid/feint1.mp4"
+                            type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="../vid/feint2.mp4"
+                            type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="../vid/feint3.mp4"
+                            type="video/mp4">
+                </video>
+            </div>
+
+            <li>Flip Run, include Feint</li>
+            <li>Touches - Trapping today-</li>
+            <ul>
+                <li>4 vids as ref</li>
+                <li>3 lines, 3 coaches</li>
+                <li>Coach serves ball to player</li>
+                <li>Player focus is bring ball, immediately play back</li>
+                <li>Second player in line keeps close</li>
+                <li>First player reaches back to feel them out</li>
+                <li>5 min, quick rotation</li>
+                <li>Everyone grab a ball, throw ball in air to self, work on moving trap</li>
+            </ul>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="../vid/trap1.mp4"
+                            type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="../vid/trap2.mp4"
+                            type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="../vid/trap3.mp4"
+                            type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="../vid/trap4.mp4"
+                            type="video/mp4">
+                </video>
+            </div>
+
+
+        </ul>
+        <br>
+    </div>
+
+    <b>20-30 min of rotational work</b>
+
+    <div class="video-container">
+        <video controls>
+            <source src="../practice/feint_dribbler_controled_shot.mp4"
+                    type="video/mp4">
+        </video>
+        <p><b>Feint, dribble, controlled shot</b></p>
+        <ul>
+            <li>Dribble to wall, feint</li>
+            <li>next player feint opposite side</li>
+            <li>controlled side of the foot long pass/shot</li>
+            <li>Speed on way back dribble, fitness</li>
+            <li>nice low level shot with side of foot</li>
+            <li>get ball, go to the outside, speed dribble back</li>
+            <li>rejoin line</li>
+        </ul>
+    </div>
+
+
+    <div class="video-container">
+        <video controls>
+            <source src="../practice/Throw%20From%20Goali%20-%20Trap%20and%20Shoot.mp4"
+                    type="video/mp4">
+        </video>
+        <p><b>Chris and Matt - Goalie Throw, Offense Traps, moves with purpose, shoots</b></p>
+        <ul>
+            <li>Goalie Throws, then runs to back of line</li>
+            <li>New Goalie steps in</li>
+            <li>Offense Traps</li>
+            <ul>
+                <li>Remember foot only slightly up for foot traps</li>
+                <li>Move body to ball, goal would be to use your foot if possible</li>
+                <li>Trapping can also move forward like our touches</li>
+            </ul>
+            <li>O shoots before line</li>
+            <li>O hustles back to line</li>
+            <li>If goalie stops it, Throw to the line opposite shooter came from</li>
+            <li>If goalie gets scored on, get ball as quickly as they can, Throw ball to opposite line</li>
+            <li>Maybe this is best to rotate from the 3 stations?</li>
+        </ul>
+    </div>
+
+
+    <hr>
+
+
+    <b>At least 15 min for scrimmage to work on positions</b>
+    <b>Last 5 min of practice, circle relay</b>
+
+    <div class="video-container">
+        <video controls>
+            <source src="../practice/circle_relay.mp4" type="video/mp4">
+        </video>
+        <p><b>Circle Relay as a Team for fittness</b></p>
+        <ul>
+            <li>Two teams</li>
+            <li>Start at middle</li>
+            <li>Run one way, touch end</li>
+            <li>Sprint to the other end</li>
+            <li>Dribble ball to other circle and stop</li>
+            <li>Next group goes once ball rest</li>
+        </ul>
+        <b>Why is this important? </b>
+        <ul>
+            <li>Fitness</li>
+            <li>Control</li>
+            <li>Relay</li>
+            <li>Head up dribbling</li>
+            <br>
+        </ul>
+    </div>
+
+    <hr>
+
+</div>
+</div>
+
+<!-- Your existing scripts -->
+<script>
+    // JavaScript function to toggle the waffle menu
+    function toggleWaffleMenu() {
+        var waffleMenu = document.getElementById("waffleMenu");
+        if (waffleMenu.style.display === "block") {
+            waffleMenu.style.display = "none";
+        } else {
+            waffleMenu.style.display = "block";
+        }
+    }
+</script>
+
+
+</body>
+
+<footer class="footer">
+    <a href="../turns.html" target="_self">Turns</a> |
+    <a href="../tryout.html" target="_self">Tryout</a> |
+    <a href="../touch.html" target="_self">Touch</a> |
+</footer>
+</html>
