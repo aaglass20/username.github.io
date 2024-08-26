@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDU Soccer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        /* Your existing CSS styles */
+        /* Add new styles for the waffle menu */
+        .waffle-menu {
+            display: none; /* Initially hide the waffle menu */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            background-color: #333;
+            padding: 20px;
+            z-index: 1000;
+        }
+
+        .waffle-menu a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .waffle-menu-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1001;
+            cursor: pointer;
+        }
+
+        .waffle-menu-toggle span {
+            display: block;
+            width: 30px;
+            height: 5px;
+            background-color: #fff;
+            margin-bottom: 5px;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #003366;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            text-align: center;
+        }
+
+
+        header img {
+            max-height: 60px; /* Adjust the size of your logo */
+        }
+
+        .video-container {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-top: 5px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<header>
+    <img src="../images/bdu.png" alt="Company Logo">
+    <h1>BDU U10 Practice</h1>
+</header>
+
+<!-- Add the waffle menu toggle button -->
+<div class="waffle-menu-toggle" onclick="toggleWaffleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<!-- The waffle menu -->
+<div class="waffle-menu" id="waffleMenu">
+    <p><br></p>
+    <a href="../index.html">Home</a>
+    <a href="../practices.html">Practice</a>
+    <a href="../warmup.html">Warm Up</a>
+    <a href="../offsides.html">Rules Explained</a>
+    <a href="../drills.html">Drills</a>
+    <a href="../offense.html">Offense</a>
+    <a href="../defense.html">Defense</a>
+    <a href="../footskils.html">Foot Skills</a>
+    <a href="../fitness.html">Fitness</a>
+    <a href="../camp.html">Camp</a>
+</div>
+<div class="container">
+
+    <b>Warmup - 15-30 min warmup and instruction</b>
+
+
+    <div class="container">
+        <ul>
+            <li>1, 2, 3, Touch Toe</li>
+            1, 2, 3, Blue Devils
+            <li>Lunges</li>
+            Blue, Devils, Blue, Devils
+            <li>Hug knee to Chest</li>
+            Blue, Devils, Blue, Devils
+            <li>Cradle Leg and Ankle</li>
+            Blue, Devils, Blue, Devils
+            <li>Criss cross quad</li>
+            Blue, Devils, Blue, Devils
+            <li>Skips</li>
+            <li>Stand in place X 10 - Count</li>
+            <ul>
+                <li>Scissors * 10</li>
+                <li>Front to Back Hop * 10</li>
+                <li>Side to Side * 10</li>
+                <li>Criss Cross * 10</li>
+                <li>Hops * 10</li>
+            </ul>
+            <li>Sprint</li>
+            <li>Flip Run (R Only, L Only, Both, Feint)</li>
+            <li>Touches</li>
+        </ul>
+
+        <hr>
+
+        <b>Goals This week (a lot here, see what we can knock out)</b>
+        <ul>
+            <li>Def Clearing - Covered on Monday</li>
+            <li>Give and Go - Covered on Monday</li>
+            <li>Switching Fields</li>
+            <li>Throw in - Offensive side</li>
+            <li>Goalie Work (Mike) - Thursday</li>
+            <li>Team Drill, good pass go to O, bad pass go to D - Covered on Monday</li>
+            <li>Direct Kicks O and D</li>
+            <li>Do a few Corners and Goal Kicks</li>
+            <li>Through Balls and Patience</li>
+            <li>Keep away, 4 v 4 or 3 v 3 or 4 v 3 - maybe today?</li>
+            <li>Eyes on Ball</li>
+        </ul>
+
+
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/defnedYourGoal.mp4" type="video/mp4">
+            </video>
+            <p><b>Group 1 - Defend the Goal </b></p>
+            <ul>
+                <li>5-6 Balls</li>
+                <li>Player is making sure coach does not score</li>
+                <li>Work on shuffling body to ball opposed to raising foot</li>
+                <li>Defending and keeping arms down</li>
+                <li>Work Left, right, Up, down</li>
+                <li>Be urgent, get rid of ball quick</li>
+                <li>Play to teammate</li>
+                <li>Not shown in vid, but teammate could work turning the ball out</li>
+            </ul>
+            <b>Why is this important?</b>
+            <ul>
+                <li>Stresses urgency of getting to ball in danger zone</li>
+                <li>Works moving body opposed to limbs</li>
+                <li>Works trapping on all levels, low, high, medium</li>
+                <li>Keeps mind set of going outside, playing to a teammte or zone</li>
+                <br>
+            </ul>
+        </div>
+
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/clearfire.mp4" type="video/mp4">
+            </video>
+            <p><b>Group 2 - Fire Drill, Clear quickly, danger zone </b></p>
+            <ul>
+                <li>2-3 players in front of goal</li>
+                <li>Other players on outside shagging balls, bringing back to coach</li>
+                <li>Coach can lob ball in, put in on the ground, give variety</li>
+                <li>Rapidly play in 4-5 balls</li>
+                <li>Players call and clear. Own it if you say you have it. (If two call both are trying to clear)</li>
+                <li>Point is, you say you got it, you get it</li>
+                <li>Others should be aware that the closest teamate is the one that should be calling and owning it</li>
+                <li>Rotate after balls are played</li>
+            </ul>
+            <b>Why is this important?</b>
+            <ul>
+                <li>Not thinking, clearing in danger</li>
+                <li>Communicate</li>
+                <li>Knowing your zones, in goal box is danger</li>
+                <br>
+            </ul>
+        </div>
+
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/givegoeyesonball.mp4" type="video/mp4">
+            </video>
+            <p><b>Group 3 - Give and Go, eyes on ball </b></p>
+            <ul>
+                <li>Two lines</li>
+                <li>Player starts with ball, communicates who passing to</li>
+                <li>Player that pass takes off</li>
+                <li>Player receiving the ball says name or "Go" and passes on fly</li>
+                <li>Player receiving ball shoots</li>
+                <li>Both players touch cones on Goal box</li>
+                <li>Run backwards keeping eyes on Ball</li>
+                <li>Coach throws ball at towards players, player nearest calls and traps</li>
+            </ul>
+            <b>Why is this important?</b>
+            <ul>
+                <li>Working on Pass and move</li>
+                <li>Communications</li>
+                <li>Eyes on ball</li>
+                <li>Continue on trapping skills</li>
+                <br>
+            </ul>
+        </div>
+
+
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/Bad%20Pass,%20Transition%20to%20D,%20Good%20Pass%20become%20O.mp4"
+                        type="video/mp4">
+            </video>
+            <p><b>Good Pass, Play O, Bad Pass Play D - Transitions</b></p>
+            <ul>
+                <li>Goal throws ball to first player</li>
+                <li>Player attempts to pass through gate</li>
+                <li>If pass goes through gate, take off an become an option for leading pass</li>
+                <li>Try to pass before next gate to teammate that should be moving after the pass</li>
+                <li>If Player misses first gate, Second Player becomes offence</li>
+                <li>First player immediately had to transition from Offense to Defense</li>
+                <li>P2 is trying to score on keeper</li>
+                <li>P1 is trying to defend, not waiting on it</li>
+            </ul>
+            <b>Why is this important? </b>
+            <ul>
+                <li>P1 is transition to D to O if they make a good pass</li>
+                <li>P1 is transitioning quickly back to D if they make a bad pass</li>
+                <li>Promotes movement on O side if successful</li>
+                <li>There is a consequence for a bad pass</li>
+                <br>
+            </ul>
+        </div>
+
+            <b>Time Check</b>
+
+        <ul>
+            <li>15 min for Scrimmage</li>
+            <li>If more time, would like to introduce some keep away</li>
+            <br>
+        </ul>
+
+    </div>
+
+
+</div>
+
+
+<hr>
+
+</div>
+</div>
+
+<!-- Your existing scripts -->
+<script>
+    // JavaScript function to toggle the waffle menu
+    function toggleWaffleMenu() {
+        var waffleMenu = document.getElementById("waffleMenu");
+        if (waffleMenu.style.display === "block") {
+            waffleMenu.style.display = "none";
+        } else {
+            waffleMenu.style.display = "block";
+        }
+    }
+</script>
+
+
+</body>
+
+<footer class="footer">
+    <a href="../turns.html" target="_self">Turns</a> |
+    <a href="../tryout.html" target="_self">Tryout</a> |
+    <a href="../touch.html" target="_self">Touch</a> |
+</footer>
+</html>
