@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICan Soccer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        /* Your existing CSS styles */
+        /* Add new styles for the waffle menu */
+        .waffle-menu {
+            display: none; /* Initially hide the waffle menu */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            background-color: #333;
+            padding: 20px;
+            z-index: 1000;
+        }
+
+        .waffle-menu a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .waffle-menu-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1001;
+            cursor: pointer;
+        }
+
+        .waffle-menu-toggle span {
+            display: block;
+            width: 30px;
+            height: 5px;
+            background-color: #fff;
+            margin-bottom: 5px;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #003366;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            text-align: center;
+        }
+
+
+        header img {
+            max-height: 60px; /* Adjust the size of your logo */
+        }
+
+        .video-container {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="../images/bdu.png" alt="Company Logo">
+    <h1>ICan Soccer - 9/7/2024</h1>
+</header>
+
+<!-- Add the waffle menu toggle button -->
+<div class="waffle-menu-toggle" onclick="toggleWaffleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<!-- The waffle menu -->
+<div class="waffle-menu" id="waffleMenu">
+    <p><br></p>
+    <a href="../index.html">Home</a>
+    <a href="../practices.html">Practice</a>
+    <a href="../warmup.html">Warm Up</a>
+    <a href="../offsides.html">Rules Explained</a>
+    <a href="../drills.html">Drills</a>
+    <a href="../offense.html">Offense</a>
+    <a href="../defense.html">Defense</a>
+    <a href="../footskils.html">Foot Skills</a>
+    <a href="../fitness.html">Fitness</a>
+    <a href="../camp.html">Camp</a>
+</div>
+<div class="container">
+
+
+    <b>Summary</b>
+    <ul>
+        <li> Intro/Warmup</li>
+        <ul>
+            <li> Demo of the skills we will learn today</li>
+        </ul>
+        <li> Group Work: Tryout</li>
+        <ul>
+            <li>Group 1: Dribbling</li>
+            <li>Group 2: Shooting + Goal Keeping</li>
+            <li>Group 3: Long Pass</li>
+            <li>Group 4: Short Pass</li>
+            <li>Group 5: Defend the Goal</li>
+        </ul>
+        <li>Scrimmage (might no have time today, skills might be fine)</li>
+        <li>Money Ball</li>
+        <li>Announce to everyone they made the team</li>
+    </ul>
+
+    <hr>
+
+    <b>Group 1: Dribbling</b>
+    <div class="video-container">
+        <video controls>
+            <source src="../practice/ican/dribble.mp4" type="video/mp4">
+        </video>
+        <p>Dribbling</p>
+        <ul>
+            <li>Red Cones, Right Foot</li>
+            <li>Blue Cones, Right Foot</li>
+            <li>Yellow cones, both feet</li>
+            <li>Time run to cone</li>
+        </ul>
+
+    </div>
+
+    <hr>
+    <b>Group 2: Shooting + Goal Keeping</b>
+    <div class="video-container">
+        <video controls>
+            <source src="../practice/ican/shoot_goalie.mp4" type="video/mp4">
+        </video>
+        <p>Dribbling</p>
+        <ul>
+            <li>First in line starts at goalie</li>
+            <li>Second in line shoots</li>
+            <li>Shoot to score, Goalie defends</li>
+            <li>After shot, shooter become goalie</li>
+            <li>Goalie to the end of the line</li>
+            <li>Repeat</li>
+        </ul>
+
+    </div>
+
+    <hr>
+    <b>Group 3: Long Pass</b>
+    <div class="video-container">
+        <video controls>
+            <source src="../practice/long%20pass.mp4" type="video/mp4">
+        </video>
+        <p>Long Pass</p>
+        <ul>
+            <li>Long pass, try to score points (vid shows 5, just do 1)</li>
+            <li>Go to the back of the line</li>
+            <li>Repeat</li>
+            <li>2 points middle, 1 point side, 0 Miss, 0 Short</li>
+        </ul>
+
+        <hr>
+
+    </div>
+
+    <hr>
+
+    <b>Group 4: Receive to short pass</b>
+    <div class="video-container">
+        <video controls>
+            <source src="../practice/recieve%20and%20short%20pass.mp4" type="video/mp4">
+        </video>
+        <p>Receive to short pass</p>
+        <ul>
+            <li>Coach passes to player</li>
+            <li>They control it inside the square, pass it back</li>
+            <li>Do 1 try, back to line, next up</li>
+            <li>Pass back, 2 points for middle, 1 point for side, 0 miss</li>
+        </ul>
+
+        <hr>
+
+    </div>
+
+    <b>Group 5: Defend the Goal</b>
+    <div class="video-container">
+        <video controls>
+            <source src="../practice/defnedYourGoal.mp4" type="video/mp4">
+        </video>
+        <p>Defend the Goal</p>
+        <ul>
+            <li>Coach passes to player in random spots</li>
+            <li>Goal is to clear to the sides, between the target</li>
+            <li>5 balls then rotate</li>
+        </ul>
+
+        <hr>
+
+    </div>
+
+
+</div>
+
+<!-- Your existing scripts -->
+<script>
+    // JavaScript function to toggle the waffle menu
+    function toggleWaffleMenu() {
+        var waffleMenu = document.getElementById("waffleMenu");
+        if (waffleMenu.style.display === "block") {
+            waffleMenu.style.display = "none";
+        } else {
+            waffleMenu.style.display = "block";
+        }
+    }
+</script>
+
+
+</body>
+</html>
