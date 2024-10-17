@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDU Soccer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        /* Your existing CSS styles */
+        /* Add new styles for the waffle menu */
+        .waffle-menu {
+            display: none; /* Initially hide the waffle menu */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            background-color: #333;
+            padding: 20px;
+            z-index: 1000;
+        }
+
+        .waffle-menu a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .waffle-menu-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1001;
+            cursor: pointer;
+        }
+
+        .waffle-menu-toggle span {
+            display: block;
+            width: 30px;
+            height: 5px;
+            background-color: #fff;
+            margin-bottom: 5px;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #003366;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            text-align: center;
+        }
+
+
+        header img {
+            max-height: 60px; /* Adjust the size of your logo */
+        }
+
+        .video-container {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-top: 5px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<header>
+    <img src="../images/bdu.png" alt="Company Logo">
+    <h1>BDU U10 Practice</h1>
+</header>
+
+<!-- Add the waffle menu toggle button -->
+<div class="waffle-menu-toggle" onclick="toggleWaffleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<!-- The waffle menu -->
+<div class="waffle-menu" id="waffleMenu">
+    <p><br></p>
+    <a href="../index.html">Home</a>
+    <a href="../practices.html">Practice</a>
+    <a href="../warmup.html">Warm Up</a>
+    <a href="../offsides.html">Rules Explained</a>
+    <a href="../drills.html">Drills</a>
+    <a href="../offense.html">Offense</a>
+    <a href="../defense.html">Defense</a>
+    <a href="../footskils.html">Foot Skills</a>
+    <a href="../fitness.html">Fitness</a>
+    <a href="../camp.html">Camp</a>
+</div>
+<div class="container">
+
+
+    <hr>
+
+    <b>Goals in next two weeks</b>
+    <ul>
+        <li><input type="checkbox" checked>Continue on quick release with quick strikes</li>
+        <li><input type="checkbox" checked>50/50 balls</li>
+        <li><input type="checkbox">Corners</li>
+        <li><input type="checkbox" checked>Kick Offs</li>
+        <li><input type="checkbox">Through Balls</li>
+        <li><input type="checkbox" checked>Trapping</li>
+        <li><input type="checkbox">Keep away, 4 v 4 or 3 v 3 or 4 v 3</li>
+    </ul>
+
+    <b>Warmup</b>
+
+    <div class="container">
+        <ul>
+            <li>1, 2, 3, Touch Toe</li>
+            1, 2, 3, Blue Devils
+            <li>Lunges</li>
+            Blue, Devils, Blue, Devils
+            <li>Hug knee to Chest</li>
+            Blue, Devils, Blue, Devils
+            <li>Cradle Leg and Ankle</li>
+            Blue, Devils, Blue, Devils
+            <li>Criss cross quad</li>
+            Blue, Devils, Blue, Devils
+            <li>Skips</li>
+            <li>Stand in place X 10 - Count</li>
+            <ul>
+                <li>Scissors * 10</li>
+                <li>Front to Back Hop * 10</li>
+                <li>Side to Side * 10</li>
+                <li>Criss Cross * 10</li>
+                <li>Hops * 10</li>
+            </ul>
+            <li>Sprint</li>
+            <li>Flip Run</li>
+            <ul>
+                <li>R Only</li>
+                <li>L Only</li>
+                <li>Both</li>
+                <li>Feint</li>
+                <li>Give and Go</li>
+                <li>Head Up</li>
+                <li>I would like to sneak in simple trap/touch 10X each</li>
+            </ul>
+            <li>25 Touches R, 25 Touches (start to work on some distance)L</li>
+
+        </ul>
+
+        <hr>
+
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/diagonal6Shooting.mp4" type="video/mp4">
+            </video>
+            <p><b>Diagonal 6 shooting</b></p>
+            <ul>
+                <li>Pass on Diagonal</li>
+                <li>Opposite line 1 touch shoots</li>
+                <li>Rotate back and forth</li>
+                <li>After 5 or so minutes, add defender should to shoulder(second person in line)</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/1touch6scoring.mp4" type="video/mp4">
+            </video>
+            <p><b>1 Touch 6 shooting</b></p>
+            <ul>
+                <li>Pass across the six</li>
+                <li>Focus on 1 touch scoring</li>
+                <li>rotate back and forth which line is the passer and shooter</li>
+                <li>After 5 or so minutes, add defender should to shoulder(second person in line)</li>
+            </ul>
+        </div>
+
+        <hr>
+
+
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/square_tospace_shoot.mp4" type="video/mp4">
+            </video>
+            <video controls>
+                <source src="../practice/square_tospace_shoot_withD.mp4" type="video/mp4">
+            </video>
+            <p><b>Square pass, to space, shoot</b></p>
+            <ul>
+                <li>Play square pass</li>
+                <li>Receiver plays diagonal</li>
+                <li>Diagonal can be played left and right of defender (defender is sticks)</li>
+                <li>Get used to playing off left or right or straight up</li>
+                <li>Diagonal passer should sprint to where they passed</li>
+                <li>Add a real defender to see how it plays out</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <b>Maybe do this</b>
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/gauntlett.mp4" type="video/mp4">
+            </video>
+            <p><b>Gauntlet</b></p>
+            <ul>
+                <li>Three boxes</li>
+                <li>1 Goalie, 1 defender in each of the last two, one free space</li>
+                <li>2 or 3 players work the ball down</li>
+                <li>defenders cannot leave their grid</li>
+                <li>Make it past the last grid, shoot on goalie</li>
+                <li>Ext of 3 on 3 work</li>
+            </ul>
+        </div>
+
+
+        <hr>
+
+
+        <hr>
+
+        <b>Do this with each team a few times before we start the scrimage</b>
+        <b></b>
+        <br>
+        <div class="video-container">
+            <video controls>
+                <source src="../practice/kickoff2.mp4"
+                        type="video/mp4">
+            </video>
+            <p><b>Kick Off Option - Lets call it #2</b></p>
+            <ul>
+                <li>Forward does direct pass back to Defender (rule change in 2016)</li>
+                <li>Outside mid horizontal run inside</li>
+                <li>Inside create outside options</li>
+                <li>Defender keep head up, dribble or release to option</li>
+            </ul>
+        </div>
+
+        <b>Time Check</b>
+
+        <ul>
+            <li>2 touch Scrimmage</li>
+            <ul>
+                <li>Team 1</li>
+                <ul>
+                    <li>G: Coach</li>
+                    <li>LD: Ella</li>
+                    <li>CD:Emma</li>
+                    <li>RD:Isabelle</li>
+                    <li>LM: JoJo</li>
+                    <li>CML: Evie</li>
+                    <li>CMR: Claire S</li>
+                    <li>RM: Mara</li>
+                    <li>S: Whitney</li>
+                </ul>
+
+                <li>Team 2</li>
+                <ul>
+                    <li>G: Coach</li>
+                    <li>LD: Coach</li>
+                    <li>CD: Hannah</li>
+                    <li>RD: Josie</li>
+                    <li>LM: Emory</li>
+                    <li>CML: Ava</li>
+                    <li>CMR: Claire B</li>
+                    <li>RM: Jordan</li>
+                    <li>S: Audrey</li>
+                </ul>
+
+            </ul>
+            <br>
+        </ul>
+
+    </div>
+
+
+</div>
+
+
+<hr>
+
+</div>
+</div>
+
+<!-- Your existing scripts -->
+<script>
+    // JavaScript function to toggle the waffle menu
+    function toggleWaffleMenu() {
+        var waffleMenu = document.getElementById("waffleMenu");
+        if (waffleMenu.style.display === "block") {
+            waffleMenu.style.display = "none";
+        } else {
+            waffleMenu.style.display = "block";
+        }
+    }
+</script>
+
+
+</body>
+
+<footer class="footer">
+    <a href="../turns.html" target="_self">Turns</a> |
+    <a href="../tryout.html" target="_self">Tryout</a> |
+    <a href="../touch.html" target="_self">Touch</a> |
+</footer>
+</html>
